@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Woocommerce Limit Purchase
 Woocommerce Limit Purchase limits the purchase, based on historic purchases of customer, for a single product or variation. You can decide the limit of purchase.
 
