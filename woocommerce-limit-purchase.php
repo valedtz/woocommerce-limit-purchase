@@ -1,5 +1,4 @@
 <?php
-
 /*
 Plugin Name: Woocommerce - Limit Purchase
 Plugin URI: http://
