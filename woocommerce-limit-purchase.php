@@ -189,12 +189,12 @@ function vdtz_wclp_plugin_loaded() {
 		function vdtz_wclp_single_product_fields_save( $post_id ){
 
 			$vdtz_wclp_select_dropdown = $_POST['vdtz_wclp_select_dropdown'];
-			if( ! empty( $vdtz_wclp_select_dropdown ) ) {
+			 if (strlen($vdtz_wclp_select_dropdown) > 0) {
 				update_post_meta( $post_id, 'vdtz_wclp_select_dropdown', esc_attr( $vdtz_wclp_select_dropdown ) );
 			}
 			
 			$vdtz_wclp_purchased_qty = $_POST['vdtz_wclp_purchased_qty'];
-			if( ! empty( $vdtz_wclp_purchased_qty ) ) {
+			if(strlen($vdtz_wclp_purchased_qty) > 0) {
 				update_post_meta( $post_id, 'vdtz_wclp_purchased_qty', esc_attr( $vdtz_wclp_purchased_qty ) ); 
 			}
 		
